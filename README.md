@@ -1,6 +1,8 @@
 ## Father Ted GraphQL API
 
-A GraphQL server that provides API to retrieve hand-curated Father Ted quotes built using [Nest](https://github.com/nestjs/nest) and [MongoDB](https://www.mongodb.com/).
+A GraphQL server that provides API to retrieve hand-curated Father Ted quotes built using [Nest](https://github.com/nestjs/nest) and [MongoDB](https://www.mongodb.com/). 
+
+The Father Ted GraphQL playground can be fount at [https://graphql.fatherted.irish/][https://graphql.fatherted.irish/].
 
 ## Installation
 
@@ -18,7 +20,7 @@ $ npm run start
 $ npm run start:dev
 
 # production mode
-$ npm run start:prod
+$ npm run start
 ```
 
 ## Test

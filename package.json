@@ -4,7 +4,7 @@
   "description": "",
   "author": "lucio.tudisco@gmail.com",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT License",
   "main": "dist/main.js",
   "scripts": {
     "prebuild": "rimraf dist",
