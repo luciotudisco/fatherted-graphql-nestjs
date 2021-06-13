@@ -12,11 +12,14 @@ import { ConfigModule } from '@nestjs/config';
   imports: [
     ConfigModule.forRoot(),
     GraphQLModule.forRoot({
-      autoSchemaFile: process.env.ENV === 'prod' ? true : join(process.cwd(), 'src/schema.gql'),
+      autoSchemaFile:
+        process.env.ENV === 'prod'
+          ? true
+          : join(process.cwd(), 'src/schema.gql'),
       playground: true,
       introspection: true,
       debug: true,
-      path: '/'
+      path: '/',
     }),
     MongooseModule.forRootAsync({
       useFactory: async () => ({
