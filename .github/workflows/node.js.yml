@@ -19,7 +19,7 @@ jobs:
         run: npm run lint
       - run: npm ci
       - name: Initialize app.yaml env variables
-      - uses: ikuanyshbekov/app-yaml-env-compiler@v1.0
+        uses: ikuanyshbekov/app-yaml-env-compiler@v1.0
         env:
           DATABASE_URI: ${{ secrets.DATABASE_URI }}
           ENV: prod
