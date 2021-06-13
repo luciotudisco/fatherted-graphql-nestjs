@@ -12,7 +12,7 @@ import { ConfigModule } from '@nestjs/config';
   imports: [
     ConfigModule.forRoot(),
     GraphQLModule.forRoot({
-      autoSchemaFile: join(process.cwd(), 'src/schema.gql'),
+      autoSchemaFile: process.env.ENV === 'prod' ? true : join(process.cwd(), 'src/schema.gql'),
       sortSchema: true,
       playground: true,
       debug: false,
