@@ -1,5 +1,6 @@
 <p align="center">
   <img src="./assets/ted.png" width="200">
+  <br>
   <img src="https://github.com/luciotudisco/fatherted-graphql-nestjs/actions/workflows/node.js.yml/badge.svg">
 </p>
 
