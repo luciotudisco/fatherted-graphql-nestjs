@@ -13,10 +13,8 @@ import { ConfigModule } from '@nestjs/config';
     ConfigModule.forRoot(),
     GraphQLModule.forRoot({
       autoSchemaFile: process.env.ENV === 'prod' ? true : join(process.cwd(), 'src/schema.gql'),
-      sortSchema: true,
       playground: true,
-      debug: false,
-      path: '/',
+      debug: true,
     }),
     MongooseModule.forRootAsync({
       useFactory: async () => ({
