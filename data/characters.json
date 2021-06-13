@@ -1,0 +1,67 @@
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955b5"},"name":"Alan"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955b6"},"name":"Bishop Brennan"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955b7"},"name":"Bishop Eddie O'Neill"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955b8"},"name":"Bishop Fachs"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955b9"},"name":"Bishop Jordan"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955ba"},"name":"Charles Hedges"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955bb"},"name":"Colm"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955bc"},"name":"Dermot Stone"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955bd"},"name":"Eoin McLove"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955be"},"name":"Fargo Boyle"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955bf"},"name":"Father Austin Purcell"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955c0"},"name":"Father Barty Dunne"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955c1"},"name":"Father Ben"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955c2"},"name":"Father Brendan"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955c3"},"name":"Father Buzz Cagney"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955c4"},"name":"Father Cave"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955c5"},"name":"Father Cyril McDuff"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955c6"},"name":"Father Damien Lennon"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955c7"},"name":"Father Dick Byrne"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955c8"},"name":"Father Dillon"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955c9"},"name":"Father Dougal"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955ca"},"name":"Father Fintan Stack"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955cb"},"name":"Father Flynn"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955cc"},"name":"Father Frost"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955cd"},"name":"Father Gallagher"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955ce"},"name":"Father Jack"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955cf"},"name":"Father Jessup"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955d0"},"name":"Father Jim Johnson"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955d1"},"name":"Father Jim Sutton"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955d2"},"name":"Father Joe Briefly"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955d3"},"name":"Father Ken Dillon"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955d4"},"name":"Father Liam Finnegan"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955d5"},"name":"Father Niall Haverty"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955d6"},"name":"Father Noel Furlong"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955d7"},"name":"Father Paul Stone"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955d8"},"name":"Father Reilly"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955d9"},"name":"Father Rory Shanahan"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955da"},"name":"Father Seamus Fitzgerald"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955db"},"name":"Father Seamus Fitzpatrick"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955dc"},"name":"Father Shaft"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955dd"},"name":"Father Ted"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955de"},"name":"Fortune Teller"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955df"},"name":"Frank"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955e0"},"name":"Fred Rickwood"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955e1"},"name":"Giant Reed"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955e2"},"name":"Henry Sellers"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955e3"},"name":"Hud Hastings"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955e4"},"name":"John O'Leary"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955e5"},"name":"Laura Sweeney"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955e6"},"name":"Mary O'Leary"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955e7"},"name":"Michael Cocheese"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955e8"},"name":"Mr Fox"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955e9"},"name":"Mrs Carberry"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955ea"},"name":"Mrs Doyle"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955eb"},"name":"Nazi Veteran"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955ec"},"name":"Niamh Connolly"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955ed"},"name":"Pat Mustard"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955ee"},"name":"Patsy"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955ef"},"name":"Richard Wilson"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955f0"},"name":"Ronald"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955f1"},"name":"Sean Yin"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955f2"},"name":"Sergeant Deegan"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955f3"},"name":"Sister Assumpta"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955f4"},"name":"Sister Monica"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955f5"},"name":"Terry MacNamee"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955f6"},"name":"Tom"}
+{"_id":{"$oid":"60c3f6ca18a5e1176c6955f7"},"name":"Tony Lynch"}

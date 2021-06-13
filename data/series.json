@@ -1,0 +1,4 @@
+{"_id":{"$oid":"60c3ebf2c80a994ef496cb9f"},"name":"Series 1","premiere":"1995-04-21","finale":"1995-05-26"}
+{"_id":{"$oid":"60c3ebf2c80a994ef496cba0"},"name":"Series 2","premiere":"1996-03-08","finale":"1996-05-10"}
+{"_id":{"$oid":"60c3ebf2c80a994ef496cba1"},"name":"Series 3","premiere":"1998-03-13","finale":"1998-05-01"}
+{"_id":{"$oid":"60c3ebf2c80a994ef496cba2"},"name":"Christmas Special","premiere":"1996-12-24","finale":"1996-12-24"}

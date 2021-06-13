@@ -1,0 +1,43 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Character {
+  _id: String!
+  name: String!
+}
+
+"""
+A date-time string at UTC, such as 2019-12-03T09:54:33Z, compliant with the date-time format.
+"""
+scalar DateTime
+
+type Episode {
+  _id: String!
+  date: DateTime!
+  name: String!
+  series: Series!
+  synopsis: String!
+}
+
+type Query {
+  characters: [Character!]!
+  episodes: [Episode!]!
+  quotes: [Quote!]!
+  randomQuote: Quote!
+  series: [Series!]!
+}
+
+type Quote {
+  _id: String!
+  characters: [Character!]!
+  episode: Episode!
+  lines: [String!]!
+}
+
+type Series {
+  _id: String!
+  finale: DateTime!
+  name: String!
+  premiere: DateTime!
+}
