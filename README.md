@@ -1,6 +1,8 @@
 ## Father Ted GraphQL API
 
-![Father Ted](./assets/ted.png){ width=50% }
+<p align="center">
+  <img src="./assets/ted.png" width="200">
+</p>
 
 A GraphQL server that provides API to retrieve hand-curated Father Ted quotes built using [Nest](https://github.com/nestjs/nest) and [MongoDB](https://www.mongodb.com/). 
 
