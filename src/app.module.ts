@@ -16,6 +16,7 @@ import { ConfigModule } from '@nestjs/config';
       sortSchema: true,
       playground: true,
       debug: false,
+      path: '/',
     }),
     MongooseModule.forRootAsync({
       useFactory: async () => ({
