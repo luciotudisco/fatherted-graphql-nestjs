@@ -19,7 +19,7 @@
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
-    "graphdoc": "graphdoc -s ./src/schema.gql -o ./doc/schema"
+    "graphdoc": "npx spectaql config.yml"
   },
   "dependencies": {
     "@nestjs/common": "^7.6.15",
@@ -53,6 +53,7 @@
     "eslint-plugin-prettier": "^3.3.1",
     "jest": "^26.6.3",
     "prettier": "^2.2.1",
+    "spectaql": "^0.2.2",
     "supertest": "^6.1.3",
     "ts-jest": "^26.5.4",
     "ts-loader": "^8.0.18",

@@ -1,0 +1,14 @@
+introspection:
+  schemaFile: ./src/schema.gql
+
+info:
+  title: FatherTed GraphQL API
+  description: Free GraphQL API for hand-curated Father Ted quotes!
+  contact:
+    name: Lucio Tudisco
+    email: lucio.tudisco@gmail.com
+
+servers:
+  - url: https://graphql.fatherted.irish/
+    description: Production
+    production: true
