@@ -1,10 +1,10 @@
 import { Resolver, Query, ResolveField, Parent } from '@nestjs/graphql';
 import { Quote } from './quote.model';
-import { CharacterService } from 'src/character/character.service';
-import { EpisodeService } from 'src/episode/episode.service';
+import { CharacterService } from '../character/character.service';
+import { EpisodeService } from '../episode/episode.service';
 import { QuoteService } from './quote.service';
-import { Episode } from 'src/episode/episode.model';
-import { Character } from 'src/character/character.model';
+import { Episode } from '../episode/episode.model';
+import { Character } from '../character/character.model';
 
 @Resolver(() => Quote)
 export class QuoteResolver {

@@ -3,7 +3,7 @@ import { MongooseModule } from '@nestjs/mongoose';
 import { Episode, EpisodeSchema } from './episode.model';
 import { EpisodeService } from './episode.service';
 import { EpisodeResolver } from './episode.resolver';
-import { SeriesModule } from 'src/series/series.module';
+import { SeriesModule } from '../series/series.module';
 
 @Module({
   imports: [

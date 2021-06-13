@@ -1,8 +1,8 @@
 import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 import { Field, ObjectType } from '@nestjs/graphql';
 import { Document, Schema as MongooseSchema } from 'mongoose';
-import { Episode } from 'src/episode/episode.model';
-import { Character } from 'src/character/character.model';
+import { Episode } from '../episode/episode.model';
+import { Character } from '../character/character.model';
 
 @ObjectType()
 @Schema()

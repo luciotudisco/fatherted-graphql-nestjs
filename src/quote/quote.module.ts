@@ -3,8 +3,8 @@ import { MongooseModule } from '@nestjs/mongoose';
 import { Quote, QuoteSchema } from './quote.model';
 import { QuoteService } from './quote.service';
 import { QuoteResolver } from './quote.resolver';
-import { EpisodeModule } from 'src/episode/episode.module';
-import { CharacterModule } from 'src/character/character.module';
+import { EpisodeModule } from '../episode/episode.module';
+import { CharacterModule } from '../character/character.module';
 
 @Module({
   imports: [

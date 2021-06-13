@@ -1,8 +1,8 @@
 import { Resolver, Query, ResolveField, Parent } from '@nestjs/graphql';
 import { Episode } from './episode.model';
 import { EpisodeService } from './episode.service';
-import { SeriesService } from 'src/series/series.service';
-import { Series } from 'src/series/series.model';
+import { SeriesService } from '../series/series.service';
+import { Series } from '../series/series.model';
 
 @Resolver(() => Episode)
 export class EpisodeResolver {
