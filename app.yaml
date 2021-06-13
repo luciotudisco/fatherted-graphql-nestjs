@@ -1,5 +1,5 @@
 runtime: nodejs14
 instance_class: F2
 env_variables:
-  ENV=prod
-  DATABASE_URI: $DATABASE_URI_VALUE
+  DATABASE_URI: $DATABASE_URI
+  ENV=$ENV
