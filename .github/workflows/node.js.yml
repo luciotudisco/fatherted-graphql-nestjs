@@ -18,6 +18,10 @@ jobs:
       - name: Run linters
         run: npm run lint
       - run: npm ci
+      - name: Create env file
+        run: |
+          touch .env
+          echo DATABASE_URI=${{ secrets.DATABASE_URI }} >> .env
       - uses: ikuanyshbekov/app-yaml-env-compiler@v1.0
         env:
           DATABASE_URI: ${{ secrets.DATABASE_URI }}
