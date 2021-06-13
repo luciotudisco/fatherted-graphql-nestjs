@@ -23,6 +23,8 @@ jobs:
           DATABASE_URI: ${{ secrets.DATABASE_URI }}
           ENV: prod
       - run: npm run build --if-present
+      - name: Run E2E tests
+        run: npm run test:e2e      
       - name: Initialize Google Cloud SDK
         uses: zxyle/publish-gae-action@master
         with:

@@ -40,6 +40,7 @@ describe('E2E Tests', () => {
     await app.close();
   });
 
+
   it('query characters', () => {
     return request(app.getHttpServer())
       .post('/')
@@ -54,6 +55,7 @@ describe('E2E Tests', () => {
       })
       .expect(200);
   });
+
   it('query series', () => {
     return request(app.getHttpServer())
       .post('/')
@@ -70,6 +72,7 @@ describe('E2E Tests', () => {
       })
       .expect(200);
   });
+  
   it('query episodes', () => {
     return request(app.getHttpServer())
       .post('/')
