@@ -1,8 +1,7 @@
 <p align="center">
   <img src="./assets/ted.png" width="200">
+  <img src="https://github.com/luciotudisco/fatherted-graphql-nestjs/actions/workflows/node.js.yml/badge.svg">
 </p>
-
-![FatherTedGraphQL](https://github.com/luciotudisco/fatherted-graphql-nestjs/actions/workflows/node.js.yml/badge.svg)
 
 ## Father Ted GraphQL API
 
