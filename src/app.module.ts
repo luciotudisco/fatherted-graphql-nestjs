@@ -16,6 +16,7 @@ import { ConfigModule } from '@nestjs/config';
       playground: true,
       introspection: true,
       debug: true,
+      path: '/'
     }),
     MongooseModule.forRootAsync({
       useFactory: async () => ({
