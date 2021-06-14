@@ -14,6 +14,10 @@ export class EpisodeService {
     return this.episodeModel.findById(id).exec();
   }
 
+  findByIds(ids: Schema.Types.ObjectId[]) {
+    return this.episodeModel.find({ _id: { $in: ids } }).exec();
+  }
+
   findAll() {
     return this.episodeModel.find().exec();
   }

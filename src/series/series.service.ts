@@ -13,6 +13,10 @@ export class SeriesService {
     return this.seriesModel.findById(id);
   }
 
+  findByIds(ids: Schema.Types.ObjectId[]) {
+    return this.seriesModel.find({ _id: { $in: ids } }).exec();
+  }
+
   findAll() {
     return this.seriesModel.find().exec();
   }
