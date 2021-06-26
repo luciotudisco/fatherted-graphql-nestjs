@@ -7,6 +7,7 @@ import { CharacterModule } from './character/character.module';
 import { EpisodeModule } from './episode/episode.module';
 import { QuoteModule } from './quote/quote.module';
 import { ConfigModule } from '@nestjs/config';
+import { ServeStaticModule } from '@nestjs/serve-static';
 
 @Module({
   imports: [
@@ -25,6 +26,10 @@ import { ConfigModule } from '@nestjs/config';
       useFactory: async () => ({
         uri: process.env.DATABASE_URI,
       }),
+    }),
+    ServeStaticModule.forRoot({
+      rootPath: join(__dirname, '..', 'public'),
+      serveRoot: '/documentation'
     }),
     SeriesModule,
     EpisodeModule,

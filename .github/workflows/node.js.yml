@@ -25,6 +25,8 @@ jobs:
           ENV: prod
       - name: Build
         run: npm run build --if-present
+      - name: Generate documentation
+        run: npm run graphdoc
       - name: Run E2E tests
         env:
           DATABASE_URI: ${{ secrets.DATABASE_URI }}
