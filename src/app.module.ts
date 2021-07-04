@@ -19,7 +19,7 @@ import { ServeStaticModule } from '@nestjs/serve-static';
           : join(process.cwd(), 'src/schema.gql'),
       playground: true,
       introspection: true,
-      debug: true,
+      debug: process.env.ENV !== 'prod',
       path: '/',
     }),
     MongooseModule.forRootAsync({
